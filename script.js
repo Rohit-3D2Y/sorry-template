@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const message = document.getElementById("message");
 
     yesBtn.addEventListener("click", function () {
-        message.textContent = "Tu hi bata de ab kaha aur kab jaana hai, Genuinely I feel bad!";
+        message.textContent = "Tu hi bata de ab treat ke liye kaha aur kab jaana hai, Genuinely I feel bad toh I will compensate : ) !";
     });
 
     noBtn.addEventListener("click", function () {
