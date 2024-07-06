@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         message.textContent = "Tu hi bata de ab kaha aur kab jaana hai, Genuinely I feel bad!";
     });
 
-    yesBtn.addEventListener("click", function () {
+    noBtn.addEventListener("click", function () {
         let currentSize = parseFloat(window.getComputedStyle(yesBtn).fontSize);
         if (currentSize < 120) { // Limit the button size to prevent it from growing indefinitely
             yesBtn.style.fontSize = currentSize * 1.5 + "px";
