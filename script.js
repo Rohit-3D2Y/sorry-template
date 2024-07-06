@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     yesBtn.addEventListener("click", function () {
-        let currentSize = parseFloat(window.getComputedStyle(noBtn).fontSize);
+        let currentSize = parseFloat(window.getComputedStyle(yesBtn).fontSize);
         if (currentSize < 120) { // Limit the button size to prevent it from growing indefinitely
-            noBtn.style.fontSize = currentSize * 1.5 + "px";
+            yesBtn.style.fontSize = currentSize * 1.5 + "px";
         }
     });
 });
